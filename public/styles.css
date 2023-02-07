@@ -1,4 +1,55 @@
+header {
+    background-color: black;
+    color: white;
+}
+
 body {
-    background-color: cornflowerblue;
-    color: antiquewhite;
+    background-color: darkkhaki;
+    margin: 0px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo {
+    width: 300px;
+    height: 150px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.official-site {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.redirectables {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+#band {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
 }
